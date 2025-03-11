@@ -29,25 +29,7 @@ window.sendMessage=function(){
         let messages = document.getElementById("messages");//targeted empty div
         let msgElement = document.createElement("p");
         msgElement.textContent = data.name + ": " + data.text;
-        messages.appendChild(msgElement);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+        messages.appendChild(msgElement)
         messages.scrollTop = messages.scrollHeight;
         });
 
